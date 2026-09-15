@@ -1,0 +1,36 @@
+{
+  "name": "muse-canon-distill",
+  "version": "0.8.1",
+  "description": "MUSE 姊妹包：从经典文学作品反向蒸馏 AI 写作可用素材——名著场景检索、来源可核验的对白知识库与角色级 few-shot、角色蒸馏、小说与戏剧结构分析。配合 MUSE-writing 使用，扩展 Phase 6 写作参考能力与同人续写场景",
+  "author": {
+    "name": "RoadtoAGI"
+  },
+  "homepage": "https://github.com/RoadtoAGI/MUSE-skills/tree/main/plugins/muse-canon-distill",
+  "repository": "https://github.com/RoadtoAGI/MUSE-skills",
+  "license": "MIT",
+  "keywords": [
+    "literary-distillation",
+    "canon",
+    "few-shot-reference",
+    "dialogue-knowledge-base",
+    "character-distillation",
+    "fanfiction",
+    "novel-analysis",
+    "creative-writing",
+    "muse"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MUSE canon distill",
+    "shortDescription": "MUSE 姊妹包",
+    "longDescription": "MUSE 姊妹包：从经典文学作品反向蒸馏 AI 写作可用素材——名著场景检索、来源可核验的对白知识库与角色级 few-shot、角色蒸馏、小说与戏剧结构分析。配合 MUSE-writing 使用，扩展 Phase 6 写作参考能力与同人续写场景",
+    "developerName": "RoadtoAGI",
+    "category": "Writing",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "使用 MUSE-canon-distill 帮我完成创作任务。",
+    "websiteURL": "https://github.com/RoadtoAGI/MUSE-skills/tree/main/plugins/muse-canon-distill"
+  }
+}

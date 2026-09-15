@@ -1,0 +1,17 @@
+{
+  "name": "muse-serial-distill",
+  "version": "0.3.1",
+  "description": "MUSE 连载拆解：按已发布文本前推分析，提供手艺参考或可导入的续写基线。人物快照与本作检索保留时间边界，参考模式迁移机制；知识库角色参考包按需委派 canon 扩展。",
+  "author": {
+    "name": "MUSE"
+  },
+  "keywords": [
+    "serial-distillation",
+    "webnovel",
+    "continuation",
+    "story-bible",
+    "creative-writing"
+  ],
+  "homepage": "https://github.com/RoadtoAGI/MUSE-skills/tree/main/plugins/muse-serial-distill",
+  "repository": "https://github.com/RoadtoAGI/MUSE-skills"
+}

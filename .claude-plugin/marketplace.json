@@ -1,0 +1,27 @@
+{
+  "name": "muse-skills",
+  "owner": {
+    "name": "RoadtoAGI"
+  },
+  "plugins": [
+    {
+      "name": "muse-writing",
+      "source": "./plugins/muse-writing"
+    },
+    {
+      "name": "muse-canon-distill",
+      "source": "./plugins/muse-canon-distill"
+    },
+    {
+      "name": "muse-serial-writing",
+      "source": "./plugins/muse-serial-writing"
+    },
+    {
+      "name": "muse-serial-distill",
+      "source": "./plugins/muse-serial-distill"
+    }
+  ],
+  "metadata": {
+    "description": "MUSE 创作技能：原创小说、文学拆解、连载创作和连载拆解。"
+  }
+}

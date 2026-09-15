@@ -1,0 +1,56 @@
+{
+  "name": "muse-skills",
+  "interface": {
+    "displayName": "Muse Skills"
+  },
+  "plugins": [
+    {
+      "name": "muse-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/muse-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "muse-canon-distill",
+      "source": {
+        "source": "local",
+        "path": "./plugins/muse-canon-distill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "muse-serial-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/muse-serial-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "muse-serial-distill",
+      "source": {
+        "source": "local",
+        "path": "./plugins/muse-serial-distill"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.env
+.env.*
+api_keys.*
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/

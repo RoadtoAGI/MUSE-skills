@@ -1,0 +1,24 @@
+card_id: climax-scale-shrink
+pattern_name: 尺度收缩高潮
+dramatic_function: 让宏大后果在一个局部行动、物件或感知中得到收束，读者由具体经验理解文明命运与人物选择的关系。
+applicability: 局部承载与更大处境之间已有可理解的联系时适用；重量、声音、形象或一次选择均可承担收束，具体形式取决于前文建立的关系及当前叙事作用。
+reuse_candidates:
+- 生态球/头发/雪茄具体道具
+- 小宇宙归还设定
+tags:
+- 高潮设计
+- 以小见大
+- 收束
+source_scenes:
+- novel: 三体Ⅲ-死神永生
+  scene_id: S13
+  note: 宇宙广播收于「还可以再留下五公斤吗」
+- novel: 三体Ⅲ-死神永生
+  scene_id: S08
+  note: 半世纪研究=头发移动两厘米，投降=一口气
+- novel: 三体Ⅲ-死神永生
+  scene_id: S04
+  note: 三十五亿年进化史压在一个红色开关上
+phase_affinity:
+- 4
+- 5

@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/RoadtoAGI/MUSE",
+  "revision": "4ecd350130b4219fe6231b27da88653e05fcfac1",
+  "packages": {
+    "muse-writing": "skills/MUSE-writing",
+    "muse-canon-distill": "skills/MUSE-canon-distill",
+    "muse-serial-writing": "skills/MUSE-serial-writing",
+    "muse-serial-distill": "skills/MUSE-serial-distill"
+  },
+  "packaging": "Complete tracked packages; unified marketplace; updated plugin metadata."
+}

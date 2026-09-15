@@ -1,0 +1,21 @@
+{
+  "name": "muse-serial-writing",
+  "version": "0.7.1",
+  "description": "MUSE 连载与衍生小说创作：剧情共创、卷章循环与持续工作区，承接同人、续写、番外和跨文风小说改编。可选依赖 muse-serial-distill 提供接管基线、muse-canon-distill 提供文学参考。",
+  "author": {
+    "name": "RoadtoAGI"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MUSE serial writing",
+    "shortDescription": "MUSE 连载与衍生小说创作",
+    "longDescription": "MUSE 连载与衍生小说创作：剧情共创、卷章循环与持续工作区，承接同人、续写、番外和跨文风小说改编。可选依赖 muse-serial-distill 提供接管基线、muse-canon-distill 提供文学参考。",
+    "developerName": "RoadtoAGI",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "使用 MUSE-serial-writing 帮我完成创作任务。",
+    "websiteURL": "https://github.com/RoadtoAGI/MUSE-skills/tree/main/plugins/muse-serial-writing"
+  },
+  "homepage": "https://github.com/RoadtoAGI/MUSE-skills/tree/main/plugins/muse-serial-writing",
+  "repository": "https://github.com/RoadtoAGI/MUSE-skills"
+}
