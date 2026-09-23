@@ -6,6 +6,22 @@ MUSE 的四套创作技能：原创小说与剧本、文学作品拆解、连载
 
 [论文](https://arxiv.org/abs/2609.15188) · [完整项目](https://github.com/RoadtoAGI/MUSE) · [Hugging Face 资源](https://huggingface.co/datasets/RoadtoASI/MUSE-skills) · [知识库说明](KNOWLEDGE_BASE.md)
 
+## 最新版本：JEV 创作辅助
+
+**2026-09-23 · muse-runtime v0.1.0**。原创写作包升级为 **v2.18.0**，名著检索包为 **v0.9.0**，连载写作包为 **v0.8.0**。
+
+JEV 在召回后评价场景原文和灵感卡，帮助选择贴合当前任务的参考；在原创和连载 brainstorm 中比较具体剧情候选，辅助补强、重构和推荐。连载共创结合已有剧情、人物所知、固定设定和作者反馈讨论未来走向，作者采纳后将决定写回大纲和章节计划。
+
+在选定的 Python 环境安装运行组件：
+
+```bash
+python3 -m pip install "git+https://github.com/RoadtoAGI/MUSE-skills.git@muse-runtime-v0.1.0"
+python3 -m muse_runtime mode set jev --work-dir /absolute/path/to/work
+python3 -m muse_runtime brainstorm guide
+```
+
+默认使用标准模式，安装插件不会自动启用 JEV。`MUSE_JEV_API_KEY` 由执行环境提供；`MUSE_JEV_TUZI_API_KEY` 可配置 Tuzi 备用通道。相关查询和候选内容会发送到配置的服务。连载 brainstorm 使用系列根目录，章节参考检索使用当次章目录，分别设置模式。详见[运行指南](src/muse_runtime/brainstorm-guide.md)和各包 README。
+
 ## 选择技能包
 
 | 插件 | 用途 | 常用入口 |

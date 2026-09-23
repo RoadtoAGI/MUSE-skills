@@ -6,6 +6,22 @@ Four MUSE skill packages support original fiction and screenplays, literary anal
 
 [Paper](https://arxiv.org/abs/2609.15188) · [Full project](https://github.com/RoadtoAGI/MUSE) · [Hugging Face resources](https://huggingface.co/datasets/RoadtoASI/MUSE-skills) · [Knowledge base](KNOWLEDGE_BASE.md)
 
+## Latest release: JEV-assisted writing
+
+**2026-09-23 · muse-runtime v0.1.0**. The writing package is now **v2.18.0**, literary retrieval **v0.9.0**, and serial writing **v0.8.0**.
+
+JEV assesses retrieved scene passages and inspiration cards to help select references for the current task. In fiction and serial brainstorming, it compares developed plot candidates and supports revision, reconstruction, and recommendations. Serial brainstorming uses the existing story, character knowledge, established constraints, and author feedback to explore future directions. Accepted decisions feed into outlines and chapter plans.
+
+Install the runtime in your chosen Python environment:
+
+```bash
+python3 -m pip install "git+https://github.com/RoadtoAGI/MUSE-skills.git@muse-runtime-v0.1.0"
+python3 -m muse_runtime mode set jev --work-dir /absolute/path/to/work
+python3 -m muse_runtime brainstorm guide
+```
+
+Standard mode is the default; installing a plugin does not enable JEV. Supply `MUSE_JEV_API_KEY` through the execution environment; `MUSE_JEV_TUZI_API_KEY` optionally enables the Tuzi backup channel. Relevant queries and candidate content are sent to the configured service. Serial brainstorming binds to the series root; chapter reference retrieval binds to the current chapter directory. Set each mode explicitly. See the [runtime guide](src/muse_runtime/brainstorm-guide.md) and package READMEs.
+
 ## Packages
 
 | Plugin | Purpose |
