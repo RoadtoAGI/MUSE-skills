@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/RoadtoAGI/MUSE",
-  "revision": "1c9e863c97aec9ca3ac8523ddea1dc1f136c3847",
+  "revision": "422e6c6f7a9c371813546072688136a19fe0b10f",
   "runtime_version": "0.1.0",
   "packages": {
     "muse-writing": "skills/MUSE-writing",
@@ -8,5 +8,12 @@
     "muse-serial-writing": "skills/MUSE-serial-writing",
     "muse-serial-distill": "skills/MUSE-serial-distill"
   },
-  "packaging": "Complete tracked packages and shared runtime; unified marketplace."
+  "packaging": "Tracked source packages and shared runtime; unified marketplace with release-specific manifests and versions.",
+  "release_date": "2026-10-04",
+  "package_versions": {
+    "muse-writing": "2.19.0",
+    "muse-canon-distill": "0.10.0",
+    "muse-serial-writing": "0.8.1",
+    "muse-serial-distill": "0.3.1"
+  }
 }

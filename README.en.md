@@ -6,9 +6,13 @@ Four MUSE skill packages support original fiction and screenplays, literary anal
 
 [Paper](https://arxiv.org/abs/2609.15188) · [Full project](https://github.com/RoadtoAGI/MUSE) · [Hugging Face resources](https://huggingface.co/datasets/RoadtoASI/MUSE-skills) · [Knowledge base](KNOWLEDGE_BASE.md)
 
-## Latest release: JEV-assisted writing
+## Latest release: review and writing skill updates
 
-**2026-09-23 · muse-runtime v0.1.0**. The writing package is now **v2.18.0**, literary retrieval **v0.9.0**, and serial writing **v0.8.0**.
+**2026-10-04**. Original writing **v2.19.0**, literary retrieval **v0.10.0**, serial writing **v0.8.1**, and serial analysis **v0.3.1**. The shared runtime remains **muse-runtime v0.1.0**.
+
+This release updates review paths for publication, evaluation, and smoke runs while retaining independent reader review. It streamlines writer instructions and makes the machine revision lane opt-in. Original and serial writing gain dialogue, action, and revision examples; literary retrieval adds short exemplar excerpts around source-text anchors.
+
+## JEV-assisted writing
 
 JEV assesses retrieved scene passages and inspiration cards to help select references for the current task. In fiction and serial brainstorming, it compares developed plot candidates and supports revision, reconstruction, and recommendations. Serial brainstorming uses the existing story, character knowledge, established constraints, and author feedback to explore future directions. Accepted decisions feed into outlines and chapter plans.
 
