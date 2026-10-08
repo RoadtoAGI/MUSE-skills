@@ -1,5 +1,8 @@
 # MUSE Skills
 
+Licensed under [CC BY-NC 4.0](LICENSE). This repository and its skills are provided for noncommercial research and learning. Commercial use is prohibited. Third-party materials retain their original rights.
+
+
 [简体中文](README.md) | **English**
 
 Four MUSE skill packages support original fiction and screenplays, literary analysis, serial writing, and serial analysis. They apply Robert McKee's story principles and retrieve examples from a literary knowledge base to guide outlining, character performance, scene writing, and revision.

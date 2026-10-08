@@ -1,6 +1,6 @@
 {
   "name": "muse-serial-writing",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "MUSE 连载与衍生小说创作：剧情共创、卷章循环与持续工作区，承接同人、续写、番外和跨文风小说改编。可选依赖 muse-serial-distill 提供接管基线、muse-canon-distill 提供文学参考。",
   "author": {
     "name": "MUSE"
@@ -13,5 +13,6 @@
     "creative-writing"
   ],
   "homepage": "https://github.com/RoadtoAGI/MUSE-skills/tree/main/plugins/muse-serial-writing",
-  "repository": "https://github.com/RoadtoAGI/MUSE-skills"
+  "repository": "https://github.com/RoadtoAGI/MUSE-skills",
+  "license": "CC-BY-NC-4.0"
 }
